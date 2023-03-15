@@ -12,7 +12,7 @@ export default function ArtPieceDetails({ image, title, artist }) {
         height={500}
       />
       <p>
-        {title} {artist}
+        {title} by {artist}
       </p>
     </div>
   );
