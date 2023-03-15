@@ -12,7 +12,7 @@ test("render Artpieces and find props [image, title, artist]", () => {
 
   const image = screen.getByRole("img");
   const description = screen.getByText(
-    "Orange Red and Green Abstract Painting Steve Johnson"
+    "Orange Red and Green Abstract Painting by Steve Johnson"
   );
 
   expect(image).toBeInTheDocument();
